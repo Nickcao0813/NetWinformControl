@@ -68,6 +68,18 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\DataGridView\IDataGridViewCustomCell.cs" />
+    <Compile Include="Controls\DateTime\UCCalendarNotes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DateTime\UCCalendarNotes.Designer.cs">
+      <DependentUpon>UCCalendarNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DateTime\UCCalendarNotes_Week.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DateTime\UCCalendarNotes_Week.Designer.cs">
+      <DependentUpon>UCCalendarNotes_Week.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\DateTime\UCDatePickerExt2.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -86,11 +98,29 @@
     <Compile Include="Controls\FactoryControls\DialAisle\UCDialAisle.Designer.cs">
       <DependentUpon>UCDialAisle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\FactoryControls\EllipseDialAisle\UCEllipseDialAisle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\EllipseDialAisle\UCEllipseDialAisle.Designer.cs">
+      <DependentUpon>UCEllipseDialAisle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\FactoryControls\Rotor\UCRotor.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Controls\FactoryControls\Rotor\UCRotor.Designer.cs">
       <DependentUpon>UCRotor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Syringe\UCSyringe_Horizontal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Syringe\UCSyringe_Horizontal.Designer.cs">
+      <DependentUpon>UCSyringe_Horizontal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Syringe\UCSyringe_Vertical.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FactoryControls\Syringe\UCSyringe_Vertical.Designer.cs">
+      <DependentUpon>UCSyringe_Vertical.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\FactoryControls\Turntable\UCTurntable.cs">
       <SubType>UserControl</SubType>
@@ -129,6 +159,9 @@
     <Compile Include="Controls\Navigation\CrumbNavigationItem.cs" />
     <Compile Include="Controls\Page\PageModel.cs" />
     <Compile Include="Controls\Panel\UCPanelQuote.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Process\UCProcessRoll.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controls\Sampling\UCSampling.cs">
@@ -696,6 +729,12 @@
     <EmbeddedResource Include="Controls\DataGridView\UCDataGridViewTreeRow.resx">
       <DependentUpon>UCDataGridViewTreeRow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DateTime\UCCalendarNotes.resx">
+      <DependentUpon>UCCalendarNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DateTime\UCCalendarNotes_Week.resx">
+      <DependentUpon>UCCalendarNotes_Week.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\DateTime\UCDatePickerExt.resx">
       <DependentUpon>UCDatePickerExt.cs</DependentUpon>
     </EmbeddedResource>
@@ -714,11 +753,20 @@
     <EmbeddedResource Include="Controls\FactoryControls\Blower\UCBlower.resx">
       <DependentUpon>UCBlower.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FactoryControls\EllipseDialAisle\UCEllipseDialAisle.resx">
+      <DependentUpon>UCEllipseDialAisle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\FactoryControls\MindMapping\UCMindMappingPanel.resx">
       <DependentUpon>UCMindMappingPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\FactoryControls\Rotor\UCRotor.resx">
       <DependentUpon>UCRotor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FactoryControls\Syringe\UCSyringe_Horizontal.resx">
+      <DependentUpon>UCSyringe_Horizontal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FactoryControls\Syringe\UCSyringe_Vertical.resx">
+      <DependentUpon>UCSyringe_Vertical.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\FactoryControls\Turntable\UCTurntable.resx">
       <DependentUpon>UCTurntable.cs</DependentUpon>
